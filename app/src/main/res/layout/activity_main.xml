@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        android:layout_marginTop="0dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNotificaçoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notificações"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonNotificaçoes"
+        android:background="@null"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="230dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:inputType="textPersonData"
+        android:background="@null"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNotificaçoes2"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:inputType="textPersonNotificaçoes2"
+        android:background="@drawable/border"
+        android:layout_below="@id/editTextData"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextNotificaçoes3"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:inputType="textPersonNotificaçoes3"
+        android:background="@drawable/border"
+        android:layout_below="@id/editTextNotificaçoes2"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
