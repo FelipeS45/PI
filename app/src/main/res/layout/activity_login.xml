@@ -6,7 +6,7 @@
     tools:context=".LoginActivity">
 
     <View
-        android:id="@+id/rectangle"
+        android:id="@+id/rectangle1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@color/green"
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="BEFF"
-        android:textSize="26dp"
+        android:textSize="26sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:inputType="textPersonLogo2"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Faça seu registro"
-        android:textSize="26dp"
+        android:textSize="26p"
         android:textStyle="bold"
         android:textColor="#000000"
         android:inputType="textPersonRegistro"
@@ -127,18 +127,18 @@
         android:layout_marginStart="85dp"
         android:layout_marginTop="528dp"
         android:background="@drawable/button"
-        android:layout_height="10"
-        android:layout_width="10"
+        android:layout_height="10dp"
+        android:layout_width="10dp"
         />
 
     <View
-        android:id="@+id/rectangle"
+        android:id="@+id/rectangle3"
         android:layout_width="match_parent"
         android:background="@drawable/border2"
         android:layout_height="100dp"
         android:layout_width="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600"
+        android:layout_marginTop="600dp"
         />
 
     <EditText
@@ -146,7 +146,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Já possui cadastro?"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:inputType="textPersonPossuiCadastro"
@@ -163,7 +163,7 @@
         android:layout_marginTop="645dp"
         android:text="Faça login"
         android:background="@drawable/border2"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textColor="#FFFFFF"
         />
 
