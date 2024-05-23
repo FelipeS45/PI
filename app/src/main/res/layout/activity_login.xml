@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Faça seu registro"
-        android:textSize="26p"
+        android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="#000000"
         android:inputType="textPersonRegistro"
