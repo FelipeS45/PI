@@ -124,21 +124,20 @@
 
     <Button
         android:id="@+id/myButton1"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="524dp"
         android:background="@drawable/button"
-        android:layout_height="10"
-        android:layout_width="10"
+        android:layout_height="16dp"
+        android:layout_width="16dp"
         />
 
     <View
         android:id="@+id/rectangle"
-        android:layout_width="match_parent"
         android:background="@drawable/border2"
         android:layout_height="100dp"
         android:layout_width="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600"
+        android:layout_marginTop="600dp"
         />
 
     <EditText

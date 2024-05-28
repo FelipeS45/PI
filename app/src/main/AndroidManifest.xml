@@ -13,13 +13,13 @@
         android:theme="@style/Theme.PI"
         tools:targetApi="31">
         <activity
-            android:name=".loading"
+            android:name=".LoadingActivity"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".cadastro"
+            android:name=".CadastroActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
