@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        android:layout_marginTop="0dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BEFF"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:inputType="textPersonLogo"
+        android:background="@null"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Faça seu registro"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:inputType="textPersonRegistro"
+        android:background="@null"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint="Nome"
+        android:inputType="textPersonNome"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextMatricula"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint="Matrícula"
+        android:inputType="textPersonMatricula"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint="E-mail"
+        android:inputType="textPersonEmail"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint="Crie a senha"
+        android:inputType="textPersonSenha"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextConfirmarSenha"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint="Confirme a senha"
+        android:inputType="textPersonConfirmarSenha"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextAceitarTermos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Eu aceito os termos de uso"
+        android:inputType="textPersonAceitarTermos"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@null"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="486dp"
+        />
+
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/button"
+        android:layout_height="16dp"
+        android:layout_width="16dp"
+        />
+
+    <View
+        android:id="@+id/rectangle"
+        android:background="@drawable/border2"
+        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPossuiCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Já possui cadastro?"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:inputType="textPersonPossuiCadastro"
+        android:background="@null"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/myButton5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:text="Cadastrar"
+        android:background="@drawable/border2"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="Faça login"
+        android:background="@drawable/border2"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        />
+
+</RelativeLayout>
