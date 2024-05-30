@@ -70,5 +70,49 @@
         android:layout_marginTop="540dp"
         />
 
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="305dp"
+        android:text="+ Criar"
+        android:background="@drawable/border3"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageButton
+        android:id="@+id/lixeira_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lixeira"
+        android:contentDescription="@string/lixeira_descricao"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="165dp"
+        android:layout_marginStart="365dp"
+        />
+
+    <ImageButton
+        android:id="@+id/lixeira_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lixeira"
+        android:contentDescription="@string/lixeira_descricao"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="365dp"
+        />
+
+    <ImageButton
+        android:id="@+id/lixeira_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lixeira"
+        android:contentDescription="@string/lixeira_descricao"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="555dp"
+        android:layout_marginStart="365dp"
+        />
 
 </RelativeLayout>
